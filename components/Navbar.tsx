@@ -39,16 +39,12 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center shadow-md shadow-emerald-950/40 border border-emerald-500/30 group-hover:scale-105 transition-transform">
-              {/* Bull/Cattle stylized icon */}
-              <svg className="w-6 h-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M19 5c-1.5 0-2.8 1.4-3 3-1.8.2-3.8.2-5.6 0-.2-1.6-1.5-3-3-3-.4 0-.8.1-1.2.3C7.5 7.8 8.8 10 9 12c.3 3.5 2 6 5 6s4.7-2.5 5-6c.2-2 1.5-4.2 2.8-6.7-.4-.2-.8-.3-1.2-.3z" />
-                <path d="M9 13.5c1 .5 2 .8 3 .8s2-.3 3-.8" />
-                <circle cx="10" cy="11" r="0.8" fill="currentColor" />
-                <circle cx="14" cy="11" r="0.8" fill="currentColor" />
-              </svg>
-            </div>
+          <a href="#" className="flex items-center gap-3 group">
+            <img
+              src="/logo.jpg"
+              alt="SmartMoo Logo"
+              className="w-10 h-10 rounded-xl object-cover shadow-md shadow-emerald-950/40 border border-emerald-500/30 group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1">
                 Smart<span className="text-amber-400">Moo</span>

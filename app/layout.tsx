@@ -44,7 +44,11 @@ export const metadata: Metadata = {
     description: "Controle da fazenda na palma da mão, mesmo sem internet no curral.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/logo.jpg", type: "image/jpeg" },
+      { url: "/favicon.ico" }
+    ],
+    apple: "/logo.jpg",
   },
 };
 

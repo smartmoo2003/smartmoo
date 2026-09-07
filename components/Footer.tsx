@@ -12,10 +12,12 @@ export function Footer() {
         {/* Top row */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-white/5">
           {/* Logo */}
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-amber-400 font-bold border border-emerald-500/30">
-              🐮
-            </div>
+          <div className="flex items-center gap-3">
+            <img
+              src="/logo.jpg"
+              alt="SmartMoo Logo"
+              className="w-10 h-10 rounded-xl object-cover border border-emerald-500/30 shadow-md shadow-emerald-950/40"
+            />
             <div className="flex flex-col">
               <span className="text-lg font-bold text-white tracking-tight">
                 Smart<span className="text-amber-400">Moo</span>
