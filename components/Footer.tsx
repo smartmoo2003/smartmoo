@@ -13,11 +13,13 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-white/5">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img
-              src="/logo.jpg"
-              alt="SmartMoo Logo"
-              className="w-10 h-10 rounded-xl object-cover border border-emerald-500/30 shadow-md shadow-emerald-950/40"
-            />
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center p-1 border border-emerald-500/30 shadow-md shadow-emerald-950/40 overflow-hidden">
+              <img
+                src="/logo.png"
+                alt="SmartMoo Logo"
+                className="w-full h-full object-contain"
+              />
+            </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold text-white tracking-tight">
                 Smart<span className="text-amber-400">Moo</span>
